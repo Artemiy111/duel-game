@@ -5,7 +5,6 @@ class Mouse {
 }
 
 class Game {
-  private RADIUS = 50
   private _heroes = [
     new Hero(
       this._canvas,
