@@ -345,7 +345,7 @@ export default function App() {
             <input onInput={e => setHeroSpeed(e, false)} type="range" min="0" max="5" step="0.1" />
           </label>
           <label>
-            Частота стрельбы
+            Интервал стрельбы
             <input
               onInput={e => setHeroFireRate(e, false)}
               type="range"
